@@ -5,7 +5,6 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Login from "./Components/Login and SignUp/Login";
 import Signup from "./Components/Login and SignUp/Signup";
-import Service from "./Pages/Service";
 import Home from "./Pages/Home";
 import JoinMeeting from "./Components/JoinMeeting/JoinMeeting";
 
@@ -16,7 +15,6 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/service" element={<Service />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />

@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="upper">
           <div className="links">
             <h4>Quick Links</h4>
-            <Link to="/service">Service</Link>
+            <Link to="/">Service</Link>
             <Link to="/about">About Us</Link>
             <Link to="/contact"> Contact</Link>
           </div>

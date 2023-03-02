@@ -49,11 +49,6 @@ const Contact = () => {
             {" "}
             <h4>Phone:</h4> <p> +91 99038 07380 </p>
           </div>
-          <div className="company_address">
-            <h4>Corporate Address :</h4>
-
-            <p>R - 77 Bad ke Ali Aurangabad - 431101</p>
-          </div>
         </div>
       </div>
       <div className={modal ? "query_submit_modal modal_active" : "query_submit_modal"}>
