@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./hero.css";
+
 const Hero = () => {
   return (
     <div className="hero">
@@ -8,7 +9,7 @@ const Hero = () => {
         <img src="../images/hero_img.png" alt="" />
       </div>
       <div className="hero-intro">
-        <h1>Join Existing Meeting</h1>
+        <h1>Join Existing Meeting {console.log(1 + 8)} </h1>
         <Link to={"join"}>
           <input type="button" value="Join" className="hero-btn" />
         </Link>
