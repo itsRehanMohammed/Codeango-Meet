@@ -25,7 +25,7 @@ const Footer = () => {
           </div>
           <div className="footer-content">
             <h4>Contact</h4>
-            <p>Mughal Emperor Aurangzeb Maqbara Road, Hamal Wadi, Khuldabad, Maharashtra, India</p>
+            <p>R - 77 Bad ke Ali Aurangabad - 431101</p>
           </div>
         </div>
         <div className="lower">

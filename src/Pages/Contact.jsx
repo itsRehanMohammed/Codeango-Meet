@@ -1,4 +1,6 @@
 import React, { useReducer, useState } from "react";
+import Footer from "../Components/Footer/Footer";
+import Navbar from "../Components/Navbar/Navbar";
 import "./contact.css";
 
 const Contact = () => {
@@ -22,6 +24,7 @@ const Contact = () => {
   };
   return (
     <>
+      <Navbar />
       <div className="contact">
         <div className="contact_wrapper">
           <form className="contact-form" onSubmit={handleSubmit}>
@@ -49,12 +52,17 @@ const Contact = () => {
             {" "}
             <h4>Phone:</h4> <p> +91 99038 07380 </p>
           </div>
+          <div className="company_address">
+            {" "}
+            <h4>Address:</h4> R - 77 Bad ke Ali Aurangabad - 431101
+          </div>
         </div>
       </div>
       <div className={modal ? "query_submit_modal modal_active" : "query_submit_modal"}>
         <p>Thank You for contacting us! We will be responding withing 24 hours to the email entered</p>
         <button onClick={() => setModal(false)}>OK</button>
       </div>
+      <Footer />
     </>
   );
 };

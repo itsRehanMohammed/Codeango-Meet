@@ -2,7 +2,8 @@
   width: 100vw;
   background-image: linear-gradient(to left, #fff, #047aed);
   border-top: 1px solid var(--primary-color);
-  margin-bottom: 50px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
 }
 .contact_wrapper {
   width: 80vw;
